@@ -21,3 +21,8 @@ K icount(K x, K y)
   return res;
 
 }
+
+//gcc -shared -fPIC countingSort.c -o countingSort.so
+//icount:`countingSort 2:(`icount;2)
+//q)icount[3 3 4 2 2 1;5]
+//`s#1 2 2 3 3 4
